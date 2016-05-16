@@ -1,0 +1,128 @@
+@charset "UTF-8";
+h1 {
+	font-size: 1.8em;
+	font-family: 'Leckerli One', cursive;
+	font-style: normal;
+	font-weight: 800;
+	color: #FFFFFF;
+	text-shadow: 4px 0px rgba(23,38,103,1.00);
+	margin-top: 40px;
+}
+nav {
+	background-color: #041E52;
+	float: none;
+	margin-bottom: 0px;
+	margin-left: -10px;
+	margin-right: -10px;
+}
+footer {
+	background-color: #031E52;
+	color: #E4F2FE;
+	font-size: 0.8em;
+	font-weight: 400;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	font-family: antic-didone;
+	font-style: normal;
+	text-align: center;
+	bottom: auto;
+	clear: right;
+}
+body {
+	border-radius: 20px / 20px;
+	color: #122B37;
+	font-family: 'Amaranth', sans-serif;
+	padding-top: px;
+	font-size: large;
+}
+.asideLeft {
+	width: 17%;
+	margin-left: 5%;
+	margin-right: 2.5%;
+	padding-bottom: px;
+	float: left;
+}
+
+header {
+	text-align: center;
+}
+a {
+	color: rgba(255,255,255,1.00);
+	text-decoration: none;
+}
+.nav a #navHome {
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-o-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+.nav a #navHome:hover {
+	-webkit-opacity: .6;
+	opacity: .6;
+}
+.nav a #navResume {
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-o-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
+	padding-left: 2%;
+}
+.nav a #navResume:hover {
+	-webkit-opacity: .6;
+	opacity: .6;
+}
+.nav a #navPortfolio {
+	-webkit-transition: all .3s ease-in-out 0s;
+	-o-transition: all .3s ease-in-out 0s;
+	transition: all .3s ease-in-out 0s;
+	padding-right: 2%;
+	padding-left: 2%;
+}
+.nav a #navPortfolio:hover {
+	-webkit-opacity: .6;
+	opacity: .6;
+}
+.nav a #navJustforFun {
+	-webkit-transition: all .3s ease-in-out 0s;
+	-o-transition: all .3s ease-in-out 0s;
+	transition: all .3s ease-in-out 0s;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+.nav a #navJustforFun:hover {
+	-webkit-opacity: .6;
+	opacity: .6;
+}
+.nav a #navContact {
+	-webkit-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+	padding-right: 2%;
+	padding-left: 2%;
+}
+.nav a #navContact:hover {
+	-webkit-opacity: .6;
+	opacity: .6;
+}
+
+body header p {
+	font-size: 1.8em;
+	font-family: 'Leckerli One', cursive;
+	font-style: normal;
+	font-weight: 800;
+	color: #FFFFFF;
+	text-shadow: 4px 0px #254356;
+}
+body p {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+header section  {
+	background-color: rgba(255,255,255,0.67);
+	background-size: cover;
+	margin-top: -10px;
+	margin-left: -10px;
+	margin-right: -10px;
+}
