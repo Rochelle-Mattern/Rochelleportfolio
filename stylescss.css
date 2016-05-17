@@ -1,13 +1,5 @@
 @charset "UTF-8";
-h1 {
-	font-size: 1.8em;
-	font-family: 'Leckerli One', cursive;
-	font-style: normal;
-	font-weight: 800;
-	color: #FFFFFF;
-	text-shadow: 4px 0px rgba(23,38,103,1.00);
-	margin-top: 40px;
-}
+
 nav {
 	background-color: #041E52;
 	float: none;
@@ -20,8 +12,6 @@ footer {
 	color: #E4F2FE;
 	font-size: 0.8em;
 	font-weight: 400;
-	margin-left: 5%;
-	margin-right: 5%;
 	padding-top: 2px;
 	padding-bottom: 2px;
 	font-family: antic-didone;
@@ -29,20 +19,18 @@ footer {
 	text-align: center;
 	bottom: auto;
 	clear: right;
+	margin-bottom: -20%;
+	margin-left: -10px;
+	margin-right: -10px;
 }
-body {
-	border-radius: 20px / 20px;
-	color: #122B37;
-	font-family: 'Amaranth', sans-serif;
-	padding-top: px;
-	font-size: large;
-}
+
 .asideLeft {
-	width: 17%;
+	width: 33%;
 	margin-left: 5%;
-	margin-right: 2.5%;
+	margin-right: 5%;
 	padding-bottom: px;
 	float: left;
+	padding-right: 5%;
 }
 
 header {
@@ -106,23 +94,37 @@ a {
 	-webkit-opacity: .6;
 	opacity: .6;
 }
-
-body header p {
-	font-size: 1.8em;
-	font-family: 'Leckerli One', cursive;
-	font-style: normal;
-	font-weight: 800;
-	color: #FFFFFF;
-	text-shadow: 4px 0px #254356;
-}
-body p {
-	margin-left: 5%;
-	margin-right: 5%;
-}
 header section  {
 	background-color: rgba(255,255,255,0.67);
 	background-size: cover;
 	margin-top: -10px;
 	margin-left: -10px;
 	margin-right: -10px;
+}
+
+
+.titlehome {
+	font-size: 2.1em;
+	font-family: 'Leckerli One', cursive;
+	font-style: normal;
+	font-weight: 800;
+	color: #FFFFFF;
+	text-shadow: 4px 0px #254356;
+	text-align: center;
+}
+.sectionRight {
+	margin-left: 2.5%;
+	margin-right: 5%;
+	width: 40%;
+	float: right;
+	min-width: 5%;
+	font-family: 'Amaranth', Arial;
+	font-size: 1.0em;
+	color: rgba(20,36,45,1.00);
+}
+.sectionTop {
+	text-align: center;
+}
+.imgresume {
+	text-align:center
 }
